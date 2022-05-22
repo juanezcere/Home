@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llBackground"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:layout_height="65dp"
+        android:id="@+id/imgImagen"
+        android:layout_weight="0.01"
+        android:src="@drawable/lights64"
+        android:contentDescription="@android:string/unknownName"
+        android:scaleType="center"
+        android:layout_width="65dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.10">
+
+        <TextView
+            android:text="@string/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblNombre"
+            android:textSize="16sp"
+            android:textStyle="normal|bold"
+            android:textColor="@color/colorText"
+            android:paddingStart="3dp"
+            android:paddingEnd="0dp"/>
+
+        <TextView
+            android:text="@string/descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblDescripcion"
+            android:textColor="@color/colorDescripcion"
+            android:paddingStart="3dp"
+            android:paddingEnd="0dp"/>
+    </LinearLayout>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:id="@+id/swEstado"
+        android:textOn="@string/on"
+        android:textOff="@string/off"
+        android:layout_height="65dp"
+        android:textColor="@color/trans" />
+</LinearLayout>

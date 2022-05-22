@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_search"
+        android:title="@string/buscarLong"
+        android:titleCondensed="@string/buscar"
+        android:icon="@drawable/search48"
+        android:visible="true"
+        android:enabled="true"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_new"
+        android:title="@string/nuevoLong"
+        android:titleCondensed="@string/nuevo"
+        android:icon="@drawable/plus48"
+        android:visible="true"
+        android:enabled="true"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_sinchronize"
+        android:title="@string/actualizar"
+        android:titleCondensed="@string/actualizar"
+        android:visible="true"
+        android:enabled="true"
+        android:orderInCategory="3"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/ajustes"
+        android:titleCondensed="@string/ajustes"
+        android:visible="true"
+        android:enabled="true"
+        android:orderInCategory="4"
+        app:showAsAction="never"/>
+
+</menu>

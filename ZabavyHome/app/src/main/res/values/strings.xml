@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Zabavy Home</string>
+    <string name="nuevo">Nuevo</string>
+    <string name="nuevoLong">Configurar un nuevo dispositivo</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="eliminarLong">Eliminar este dispositivo</string>
+    <string name="editar">Editar</string>
+    <string name="editarLong">Editar este dispositivo</string>
+    <string name="buscar">Buscar</string>
+    <string name="buscarLong">Buscar un dispositivo</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="nombre">Nombre</string>
+    <string name="descripcion">Descripción</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="cambiar">está ahora</string>
+    <string name="eliminado">El dispositivo fue eliminado correctamente</string>
+    <string name="noeliminado">Ocurrio un error al tratar de eliminar el dispositivo</string>
+    <string name="noencontrada">No fue encontrado ningún dispositivo, por favor verifique que esté encendido</string>
+    <string name="ssid">Nombre de la red Wifi</string>
+    <string name="pass">Contraseña de la red Wifi</string>
+    <string name="imagen">Imagen</string>
+    <string name="color">Color</string>
+    <string name="selimagen">Seleccione una imagen</string>
+    <string name="selcolor">Seleccione un color</string>
+    <string name="guardar">Guardar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="llenar">Debe llenar el campo de</string>
+    <string name="ocho">El campo de contraseña debe tener 8 caracteres como mínimo</string>
+    <string name="nodevice">No se pudo realizar la comunicación con el dispositivo</string>
+    <string name="failure">Ocurrió un error con la aplicación al momento de comunicar con el dispositivo</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/action_edit"
+        android:title="@string/editarLong"
+        android:titleCondensed="@string/editar"
+        android:orderInCategory="1"/>
+
+    <item android:id="@+id/action_delete"
+        android:title="@string/eliminarLong"
+        android:titleCondensed="@string/eliminar"
+        android:orderInCategory="2"/>
+
+</menu>

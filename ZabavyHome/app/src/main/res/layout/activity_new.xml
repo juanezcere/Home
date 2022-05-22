@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_new"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="zabavy.zabavyhome.NewActivity"
+    android:background="@drawable/background">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                        <TextView
+                            android:text="@string/ssid"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/lblSSID" />
+
+                        <Spinner
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/cbWifi" />
+
+                        <TextView
+                            android:text="@string/pass"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/lblPASS" />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textPassword"
+                            android:ems="10"
+                            android:id="@+id/txtPass"
+                            android:hint="@string/pass" />
+
+                        <TextView
+                            android:text="@string/nombre"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/lblNombre" />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textPersonName"
+                            android:ems="10"
+                            android:id="@+id/txtNombre"
+                            android:hint="@string/nombre" />
+
+                        <TextView
+                            android:text="@string/descripcion"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/lblDescripcion" />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:id="@+id/txtDescripcion"
+                            android:inputType="textLongMessage"
+                            android:hint="@string/descripcion" />
+
+                        <TextView
+                            android:text="@string/imagen"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/lblImagen" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="68dp"
+                            app:srcCompat="@drawable/lights64"
+                            android:id="@+id/imgImagen"
+                            android:contentDescription="@string/imagen" />
+
+                        <TextView
+                            android:text="@string/color"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/lblColor" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/lights64"
+                            android:id="@+id/imgColor"
+                            android:background="@color/white"
+                            android:contentDescription="@string/imagen" />
+
+                        <Button
+                            android:text="@string/guardar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/btnGuardar" />
+
+                        <Button
+                            android:text="@string/cancelar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/btnCancelar" />
+                </LinearLayout>
+        </ScrollView>
+
+</RelativeLayout>
